@@ -7,6 +7,10 @@ sudo apt upgrade
 sudo apt update
 sudo apt-get install gedit
 
+# terminator
+sudo apt update
+sudo apt install terminator
+
 # brave
 sudo apt install curl
 
