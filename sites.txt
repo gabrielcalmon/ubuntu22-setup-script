@@ -1,0 +1,6 @@
+# SITES
+## edge
+https://www.microsoft.com/pt-br/edge
+
+## vscode
+https://code.visualstudio.com/docs/?dv=linux64_deb
