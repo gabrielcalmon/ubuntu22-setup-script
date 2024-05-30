@@ -28,3 +28,14 @@ If so, fix it with
 ```
 timedatectl set-local-rtc 1 --adjust-system-clock
 ```
+
+## Configure SSH
+
+Generate and copy the ssh key
+```bash
+ssh-keygen -t rsa -b 2048 -C "youremail@address.com"
+cd ~/.ssh
+cat id_rsa.pub
+```
+
+Go to github -> settings -> SSH and GpG keys and click at New ssh key. Give it a name and paste the key.
