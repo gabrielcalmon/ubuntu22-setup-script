@@ -39,3 +39,11 @@ cat id_rsa.pub
 ```
 
 Go to github -> settings -> SSH and GpG keys and click at New ssh key. Give it a name and paste the key.
+
+## ROS2
+### Install rosdel
+```bash
+sudo apt install python3-pip
+sudo pip install -U rosdep
+sudo rosdep init && rosdep update
+```
